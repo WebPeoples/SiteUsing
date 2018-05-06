@@ -1,0 +1,153 @@
+
+*{
+
+	margin:0px;
+	padding: 0px;
+	max-width: 1393px;
+}
+
+
+
+.galeria {
+
+	margin: 200px auto ;
+	width: 1393px;
+	height: 800px ;
+	position: relative	;
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -28px;
+	padding: 20px;
+}
+
+
+.data-img {
+    
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	position: absolute;
+}
+
+@keyframes animacao {
+
+
+	25%{
+
+		opacity: 1;
+	}
+
+	50%{
+
+		opacity: 0;
+	}
+}
+
+	    .data-img:nth-child(1) {
+
+
+     
+	}
+
+		.data-img:nth-child(2) {
+
+			animation-delay: 5s;
+     
+	}            
+
+		.data-img:nth-child(3) {
+
+			animation-delay: 5s;
+     
+	}            
+
+		.data-img:nth-child(4) {
+
+		    animation-delay: 2s;
+     
+	}
+
+
+.info {
+  position: absolute;
+  width: 80%;
+  max-width: 500px;
+  bottom: 20%;
+  right: 10%;
+  pointer-events: none;
+}
+
+.inner {
+  position: relative;
+  padding: 1.66em 3em;
+  background: #FFFFFF;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.info:before {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  -o-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+  background: #E91E63;
+  background: #3F51B5;
+}
+
+.buttons {
+  position: absolute;
+  bottom: -50px;
+  right: 5%;
+  pointer-events: all;
+}
+
+.buttons button {
+  transition: ease .4s;
+}
+
+.btn-prev,
+.btn-next {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(top, #F5515F, #E91E63);
+  background: linear-gradient(to bottom, #F5515F, #E91E63);
+  box-shadow: 0px 3px 15px 2px rgba(245,81,95,.8);
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  box-shadow: 0px 3px 30px 3px rgba(245,81,95,.8);
+}
+
+.buttons button:disabled {
+  box-shadow: 0px 1px 5px 0px rgba(245,81,95,.8);
+  background: -webkit-linear-gradient(top, #E91E63, #F5515F);
+  background: linear-gradient(to bottom, #E91E63, #F5515F);
+  cursor: default;
+}
+
+/* Optional content */
+.optional {
+  width: 80%;
+  max-width: 680px;
+  margin: 6em auto;
+  padding: 2em 3em;
+  box-shadow: 
+    0 3px 12px rgba(0,0,0,0.16), 
+    0 3px 12px rgba(0,0,0,0.23);
+}
+
+
+
+

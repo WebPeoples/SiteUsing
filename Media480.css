@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+
+
+.VantagensTextos {
+
+	width: 100%;
+}
+
+.ImgCap {
+
+	width: 35%;
+	text-align: center;
+	margin-top: 15%;
+	margin-right: 10%;
+}
+
+}

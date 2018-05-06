@@ -1,0 +1,643 @@
+body {
+
+
+	margin: 0;
+	padding: 0;
+	max-width: 1350px;
+	overflow-x: hidden;  /* TIRANDO A BARRA DE ROLAGEM */
+}
+
+/* MENU USING */
+
+#menu { /* 1350px */
+	margin-top: 35px;
+	width: 100%;
+	position: fixed; /* FIXAR O MENU NA PARTE SUPERIOR*/
+	z-index: 2; /* SOBREPOR O MENU NA PARTE SUPERIOR*/
+	margin-left: 130px;
+
+	
+}
+
+img {
+
+	max-width: 100%;
+}
+
+a {
+
+	-webkit-transition: color 2s; /* PARA O NAGEGADOR SAFARI*/
+	transition: color 2s; /* EFEITO DE TRANSITO TEXTO MENU OUTROS NAVEGADORES*/
+}
+
+a:hover {
+
+	color: black;
+}
+#menu  ul{ /* barra de navgegação*/ /* 1350px;*/
+	background-color: #363d8f;
+	list-style: none;
+	padding: 0.073909830007391%;
+	margin: -16px;  
+	opacity: .90; /* aplicando opacidade a barra do menu */
+	       
+}
+#menu li a:hover { /* Efeito apos inserir o Mouse no texto. */
+
+   color: #b3b3b3;
+   transition: color 1s;
+	
+}
+#menu ul li {
+	display: inline;
+}
+#menu ul li a {
+	padding: 0.7407407407407407% 1.111111111111111%;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-family:Gill Sans MT;
+	font-size: 0.8888888888888889em;
+}
+
+/* BT MENU  */
+
+label[for="bt_menu"]{
+
+	padding: 5px;
+	background-color:#363d8f;
+	color: #fff;
+	font-family:Gill Sans MT;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	display: none;	
+}
+
+#bt_menu {
+  
+  display: 	none;	
+
+}
+
+#O_Using {
+	margin-left: 280px /* CENTRALIZANDO O MENU */
+}
+
+
+
+
+
+
+/* LOGO SITE */
+
+.logo {
+
+	margin-top: -50px;
+	margin-left: -140px;
+}
+
+
+
+/* FRASE CONTRATAÇÃO */
+
+
+#Contratacao {
+
+	font-family:Gill Sans MT;
+	font-weight: normal;
+	color: #9b9596;
+	text-align: center; /* CENTRALIZANDO O TEXTO */
+	margin-top: -10%;
+	width: 100%;
+	margin-left: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PORQUE USING */
+
+.UsingPorque {
+
+
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 5%;
+
+}
+
+.BarraAzul { /* BARRA DESING DOS TITULOS */
+
+	width: 30%;
+	background-color: #363c8f;
+	color: #363c8f;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+
+
+
+
+/* Frase porque Using */
+
+
+.FrasePorqueUsing {
+
+	font-family: Gill Sans MT;
+	color: #e85a63;
+	font-weight: normal;
+	font-size: 2.5em;
+
+
+}
+
+
+.UsingPorque li { /* DEIXANDO O PORQUE USING EM LISTRAS*/
+
+   display: inline;
+   margin-right: 15px;
+
+}
+
+
+
+/* VANTAGENS USING */
+
+
+.VantagensTextos {
+
+   width: 55%;
+   background-color: #363d8f;
+   margin-top: 10%;
+
+}
+
+
+/* Capitação NOVO CLIENTES*/
+
+
+.Capitacao {
+    
+    width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+	font-size: 0.8888888888888889em; /* 14px */
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.ImgCap {
+
+	width: 55%;
+	text-align: right;
+	margin-top: -24%;
+	margin-left: 55%;
+}
+
+
+
+/*  Divulgue */
+
+
+.Divulgue {
+
+	width: 55%;
+	text-align: center;
+	margin-top: 5%;
+	background-color: #e95c64;
+	font-size: 0.8888888888888889em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+} 
+
+.Localizacao {
+  
+    width: 55%;
+	text-align: center;
+	margin-top: 5%;
+	background-color: #b4b4b4;
+	font-size: 0.8888888888888889em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+
+}
+
+
+/*  Frase seja livre  */
+
+.VerPlanos {
+
+	width: 100%;
+}
+
+.FundoAzul {
+
+	width: 100%;
+}
+
+.SejaLivre {
+
+	text-align: center;
+	margin-top: 5%;
+	font-size: 1.7em;
+	font-family:Gill Sans MT;
+	color: #363c8f;
+}
+
+.importa {
+
+	color: #e95c64;
+
+}
+
+.VerPlanos {
+
+	background-color: #363c8f;
+	padding-bottom: 5%;
+	width: 100%;
+}
+
+
+.VerPlanos li {
+
+	display: inline;
+	margin-left: 2%;
+}
+
+.VerPlanos img {
+
+	width: 14%;
+	margin-top: 5%;
+
+}
+
+
+.ContainerAssine {
+
+
+	widows: 50%;
+
+}
+
+.FraseAssine {
+
+	font-family:Gill Sans MT;
+	color: white;
+	font-size: 1.5em;
+	text-align: right;
+	margin-right: 25%;
+	margin-top: -30%;
+
+}
+
+.FraseAssine2 {
+
+	font-family:Gill Sans MT;
+	color: white;
+	font-size: 1.5em;
+	margin-left: 55.5%;
+	margin-top: 5%;
+	opacity: 0.5;
+
+}
+
+
+
+
+/* botão VER PLANOS */
+
+.BtPlanos {
+
+	margin-left: 55.5%;
+	margin-top: 2%;
+	font-family:Gill Sans MT;
+	border: none;  /* REMOVENDO A BORDA DO BOTÃO*/
+	cursor: pointer; /* TRANSFORMANDO O CURSO EM SINAL DE LINK */
+	padding: 1%;
+	padding-right: 4%;
+	padding-left: 4%;
+
+
+}
+
+.bt-pink {
+
+	background:#e95c63;
+	color: white;
+}
+
+
+.bt-pink:hover {
+
+	background:#c62b32;
+	color: white;
+}
+
+
+/* BAIXA O NOSSO APLICATIVO */
+
+
+
+.baixe {
+
+    width: 100%;
+	text-align: center;
+	margin-top: 9%;
+	background-color: #e95c63;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: Gill Sans MT;
+	color: white;
+	font-size: 1.5em;
+}
+
+
+
+
+.BaixeApp {
+
+	width: 100%;
+}
+
+.QRCode {
+
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	font-family: Gill Sans MT;
+	color: #515151;
+}
+
+.PlayStore {
+
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	font-family: Gill Sans MT;
+	color: #515151;
+}
+
+
+.LinkPlay {
+
+	color: #515151;
+}
+
+
+.VantagensContainer {
+
+	width: 100%;
+}
+
+.VantagensComo {
+    
+    width: 30%;
+	margin-left: 10%;
+	color: #323232;
+	font-weight: bold;
+}
+
+.VantagensComo .Destaq {
+
+	color: #e95c63;
+}
+
+
+/* QUEM SOMOS*/
+
+
+.QuemSomos {
+
+	width: 90%;
+}
+
+.QuemSomosTextos {
+
+	width: 100%;
+	margin-top: 10%;
+	font-family: Gill Sans MT;
+	font-size: 1em;
+}
+
+
+/* NOSSA PLATAFORMA */
+
+.NossaPlataforma {
+
+	width: 90%;
+}
+
+.Ciclo {
+
+	margin-top: 10%;
+}
+
+
+
+.ImgPlataforma {
+
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.ImgPlataforma img {
+
+	margin-right: 10%;
+}
+
+
+
+.FrasesPlataforma b {
+
+     color: #f05565;
+}
+
+.Barra {
+
+	background-color: #363c8f;
+	padding-bottom: -5%;
+	font-size: 0.1em;
+}
+
+.FrasesPlataforma {
+
+	width: 100%;
+	font-family: Gill Sans MT;
+	font-size: 1em;
+	column-count: 3; /* DEIXANDO O TEXTO DIVIDIDO EM */
+	margin-top: 2%;
+
+}
+
+.ImgFrases {
+
+	width: 100%;
+	column-count: 3;
+	margin-top: 5%;
+
+}
+
+
+.QuemSomosTextos p {
+   
+
+   width: 100%;
+   font-family: Gill Sans MT;
+   font-size: 1em;
+
+}
+
+
+.Size-x {
+
+	height: 80px;
+	width: 80px;
+	margin-left: 47%;
+	margin-top: 5%;
+}
+
+
+.Cicle { /* TRANSFORMANDO UMA FORMA QUADRADA EM CIRCULO.*/
+
+	  font-size: 1.5em;
+	  font-family: Gill Sans MT;
+	  background-color: #363d8f;
+	  border-radius: 100%;
+	  color: white;
+
+	  display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+
+     -webkit-align-items: center;
+     -webkit-box-align: center;
+	 -ms-flex-align: center;
+	  align-items: center;
+    
+     justify-content: center;
+
+}
+
+.PassoTutor {
+
+	width: 100%;
+	margin-top: 5%;
+
+}
+
+
+.PassoTutor {
+
+	column-count: 2;
+	width: 100%;
+}
+
+.TextoTutor {
+
+	margin-top: 30%;
+	width: 100%;
+	font-size: 1em;
+	font-family: Gill Sans MT;
+}
+
+
+
+.TextoTutorDois {
+
+	width: 100%;
+	font-size: 1em;
+	font-family: Gill Sans MT;
+}
+
+
+
+
+
+.PlanosFrases {
+
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-color: #363d8f;
+	margin-top: 5%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	font-size: 1em;
+}
+
+.PlanosFrases b {
+
+	color:  #e95c63;
+}
+
+
+.PlanosDescricao {
+
+	column-count: 2;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 1em;
+
+}
+
+.dinamico {
+
+	margin-left: 10%;
+	width: 100%;
+	font-size: 1.5em;
+	color:  #e95c63;
+}
+
+.FrasePlano {
+
+    color: #7f7f7f;
+}
+
+.FrasePlano b {
+
+	color: #e95c63;
+}
+
+.QuantidadeFilial {
+
+	margin-top: 10%;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

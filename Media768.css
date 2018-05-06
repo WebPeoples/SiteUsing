@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+
+     #menu {
+
+     	margin-top:20px;
+      display: block; /* DEIXANDO O MENU VERTICAL*/
+
+
+     }
+
+
+     #menu  ul{ /* barra de navgegação*/ /* 1350px;*/
+    	background-color: #363d8f;
+    	list-style: none;
+    	padding: 1px;
+    	padding-top: 20px;
+    	margin: -16px;  
+
+}
+
+     #menu ul li a:hover {
+
+      background-color: #e95d64;
+     }
+
+    #menu ul li a {
+
+      line-height: 30px; /* altura da linha */
+      font-size: 15px;
+      display: block;
+      padding-left: 100px;
+  }
+
+      label[for="bt_menu"]{ 
+         
+         display: block;  
+    }
+
+    #bt_menu:checked ~ #menu {
+
+      margin-left: 0;
+    }
+
+
+    #menu {
+
+      margin-top: 3px;
+      margin-left: -100%;
+      transition: all .4s;  
+    }
+      
+      #menu ul li {
+
+         width: 100%;
+         float: none;
+
+      }
+
+
+
+      .Capitacao {
+
+        font-size: 0.7777777777777778em;
+      }
+
+
+
+      .ImgCap {
+          
+          
+      }
+
+    
+}
